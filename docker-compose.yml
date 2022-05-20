@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+
+  activemq:
+    image: vromero/activemq-artemis
+    container_name: kind_feistel
+    environment:
+      - "TZ=Europe/Amsterdam"
+    volumes:
+      - "./activemq/activemq.xml:/conf/activemq.xml"
+    ports:
+      - "61613:61613"
+      - "8161:8161"
