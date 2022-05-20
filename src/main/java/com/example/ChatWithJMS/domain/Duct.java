@@ -13,8 +13,8 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
 public class Duct {
     private final UUID ductId;
     private final ReadWriteLock readWriteLock = new ReentrantReadWriteLock();
-    //private final List<> ductPeople;
+    private final List<People> ductPeople;
     private final String ductName;
-    //private final List<> msgList;
-    //private final List<> fileList;
+    private final List<Information> msgList;
+    private final List<File> fileList;
 }
