@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="ChatWithJMS:war exploded">
-    <output-path>$PROJECT_DIR$/target/ChatWithJMS-1.0-SNAPSHOT.war</output-path>
+    <output-path>$PROJECT_DIR$/target/ChatWithJMS-1.0-SNAPSHOT</output-path>
     <properties id="maven-jee-properties">
       <options>
         <exploded>true</exploded>
@@ -12,6 +12,12 @@
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="ChatWithJMS" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.apache.maven.surefire:surefire-booter:2.22.2" />
+          <element id="library" level="project" name="Maven: org.apache.maven.surefire:surefire-api:2.22.2" />
+          <element id="library" level="project" name="Maven: org.apache.maven.surefire:surefire-logger-api:2.22.2" />
+          <element id="library" level="project" name="Maven: org.projectlombok:lombok:1.18.24" />
         </element>
       </element>
       <element id="directory" name="META-INF">
