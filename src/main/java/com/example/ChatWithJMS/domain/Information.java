@@ -20,7 +20,7 @@ public class Information implements Serializable {
     @Setter
     private String ductName;
     private Timestamp doTime;
-    private List<String> accesPeopleList;
+    private List<String> accessPeopleList;
 
     public String msgToJson() {
         return

@@ -6,6 +6,7 @@ import lombok.Setter;
 
 import javax.persistence.*;
 import java.sql.Timestamp;
+import java.util.List;
 import java.util.UUID;
 
 @Entity
@@ -23,6 +24,6 @@ public class PeopleEntity {
     @Column(nullable = false)
     private Timestamp doTime;
     @ManyToMany(mappedBy = "ductPeoples")
-    //private List<> ductEntityList;
+    private List<DuctEntity> ductEntityList;
 
 }

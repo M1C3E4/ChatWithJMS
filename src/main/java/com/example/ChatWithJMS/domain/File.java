@@ -12,6 +12,7 @@ import java.util.UUID;
 public class File {
     private UUID fileId;
     private String peopleName;
+    private String fileName;
     private String pathFile;
     private String ductName;
     @Setter
