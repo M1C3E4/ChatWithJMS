@@ -53,6 +53,36 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/example/ChatWithJMS/adapters/durable/mappers/JpaDurableDuctMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/example/ChatWithJMS/adapters/durable/mappers/JpaDurableFileMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/example/ChatWithJMS/adapters/durable/mappers/JpaDurableInformationMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/example/ChatWithJMS/adapters/durable/mappers/JpaDurableInfromationMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/example/ChatWithJMS/adapters/durable/mappers/JpaDurablePeopleMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/example/ChatWithJMS/adapters/durable/mappers/JpeDurableDuctMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/example/ChatWithJMS/adapters/durable/repository/JpaDuctRepo.java">
           <value>
             <set />
