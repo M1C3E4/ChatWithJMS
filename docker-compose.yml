@@ -20,3 +20,4 @@ services:
       - POSTGRES_USER=testdocker
       - POSTGRES_PASSWORD=testdocker
       - POSTGRES_DB=testdocker
+      - PGDATA=/data
