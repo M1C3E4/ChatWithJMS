@@ -1,38 +1,31 @@
 package com.example.ChatWithJMS.adapters.durable.repository;
 
-import com.example.ChatWithJMS.adapters.durable.mappers.JpaDurablePeopleMapper;
-import com.example.ChatWithJMS.adapters.durable.mappers.JpeDurableDuctMapper;
-import com.example.ChatWithJMS.domain.Duct;
-import com.example.ChatWithJMS.domain.People;
-import com.example.ChatWithJMS.ports.DuctRepo;
-import lombok.RequiredArgsConstructor;
-import lombok.var;
+import com.example.ChatWithJMS.adapters.durable.entity.DuctEntity;
+import com.example.ChatWithJMS.adapters.durable.entity.PeopleEntity;
+import lombok.Setter;
 
-import javax.inject.Inject;
-import javax.transaction.Transactional;
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
 import java.util.List;
 
-@Transactional
-@RequiredArgsConstructor(onConstructor_ = @Inject)
-public class JpaDuctRepo implements DuctRepo {
+public class JpaDuctRepo{
 
-    private final JpaDuctRepo jpaDuctRepo;
-    private final JpeDurableDuctMapper jpeDurableDuctMapper;
-    private final JpaDurablePeopleMapper jpaDurablePeopleMapper;
+    @Setter
+    @PersistenceContext
+    private EntityManager entityManager;
 
-
-    @Override
-    public void addPeopleFromDuctIntoDuct(People people, Duct duct) {
-
+    public void addDuctPeople(PeopleEntity peopleEntity, DuctEntity ductEntity){
+        ductEntity.getDuctPeoples().add(peopleEntity);
+        entityManager.merge(ductEntity);
     }
 
-    @Override
-    public void deleteDuctPeople(People people, Duct duct) {
-
+    public List<PeopleEntity> getDuctPeople(DuctEntity ductEntity){
+        return ductEntity.getDuctPeoples();
     }
 
-    @Override
-    public List<People> getDuctPeople(Duct duct) {
-        return null;
+    public void deleteDuctPeople(PeopleEntity peopleEntity, DuctEntity ductEntity){
+        ductEntity.getDuctPeoples().remove(peopleEntity);
+        entityManager.merge(ductEntity);
     }
+
 }

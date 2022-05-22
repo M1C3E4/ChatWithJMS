@@ -103,6 +103,16 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/example/ChatWithJMS/adapters/durable/JpaInformationRepoAdapter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/example/ChatWithJMS/adapters/durable/JpaPeopleRepoAdapter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/example/ChatWithJMS/adapters/durable/entity/DuctEntity.java">
           <value>
             <set />
@@ -173,6 +183,16 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/example/ChatWithJMS/adapters/durable/repository/JpaInformationRepo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/example/ChatWithJMS/adapters/durable/repository/JpaPeopleRepo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/example/ChatWithJMS/adapters/help.java">
           <value>
             <set />
@@ -238,7 +258,17 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/example/ChatWithJMS/ports/InformationRepo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/example/ChatWithJMS/ports/JMS.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/example/ChatWithJMS/ports/PeopleRepo.java">
           <value>
             <set />
           </value>
@@ -249,6 +279,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../chat1b/src/main/java/com/sebapd/chat1b/server/adapters/api/dtos/MessageDto.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../chat1b/src/main/java/com/sebapd/chat1b/server/adapters/persistent/repositories/JpaChannelRepository.java">
           <value>
             <set />
           </value>
