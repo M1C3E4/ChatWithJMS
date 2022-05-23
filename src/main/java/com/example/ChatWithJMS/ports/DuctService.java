@@ -7,7 +7,7 @@ import com.example.ChatWithJMS.domain.People;
 import java.util.List;
 
 public interface DuctService {
-    void addPeopleFromDuctIntoDuct(People people, Duct duct);
-    void deleteDuctPeople(People people, Duct duct);
+    void addPeopleFromDuctIntoDuct(String peopleName, String ductName);
+    void deleteDuctPeople(String peopleName, String ductName);
     List<Information> historyDownloading(String ductName, String peopleName);
 }

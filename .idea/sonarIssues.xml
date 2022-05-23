@@ -233,6 +233,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/example/ChatWithJMS/domain/service/ServiceDuct.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/example/ChatWithJMS/ports/DuctRepo.java">
           <value>
             <set />
