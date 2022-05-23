@@ -2,6 +2,8 @@ package com.example.ChatWithJMS.domain.service;
 
 import com.example.ChatWithJMS.domain.Information;
 import com.example.ChatWithJMS.domain.People;
+import com.example.ChatWithJMS.domain.exception.DuctNotFoundException;
+import com.example.ChatWithJMS.domain.exception.PeopleNotExistInDuctException;
 import com.example.ChatWithJMS.ports.DuctsRepo;
 import com.example.ChatWithJMS.ports.InformationRepo;
 import com.example.ChatWithJMS.ports.InformationService;
@@ -22,10 +24,13 @@ public class ServiceInformation implements InformationService {
 
     @Override
     public void send(Information information, String ductName) {
-        var duct = ductsRepo.getDuctByName(ductName);
-        var peopleName = duct.get().getDuctPeople()
+        var duct = ductsRepo.getDuctByName(ductName).orElseThrow(DuctNotFoundException::new);
+        var peopleName = duct.getDuctPeople()
                 .stream()
                 .map(People::getPeopleName)
                 .toList();
+        if(peopleName.contains(information.getPeopleName())){
+            informationRepo.sendInformation(information, duct);
+        }else throw new PeopleNotExistInDuctException();
     }
 }

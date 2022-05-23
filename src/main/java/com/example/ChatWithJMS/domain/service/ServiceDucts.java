@@ -1,6 +1,7 @@
 package com.example.ChatWithJMS.domain.service;
 
 import com.example.ChatWithJMS.domain.Duct;
+import com.example.ChatWithJMS.domain.exception.DuctAlreadyExistException;
 import com.example.ChatWithJMS.ports.DuctsRepo;
 import com.example.ChatWithJMS.ports.DuctsService;
 import lombok.RequiredArgsConstructor;
@@ -17,7 +18,11 @@ public class ServiceDucts implements DuctsService {
 
     @Override
     public void addDuct(Duct duct) {
-        ductsRepo.addDuct(duct);
+        if(!ductAlreadyExist(duct.getDuctName())) {
+            ductsRepo.addDuct(duct);
+        }else {
+            throw new DuctAlreadyExistException();
+        }
     }
 
     @Override
@@ -29,4 +34,10 @@ public class ServiceDucts implements DuctsService {
     public List<Duct> getDuctList() {
         return ductsRepo.getDuctList();
     }
+
+    private boolean ductAlreadyExist(String ductName){
+        List<Duct> ducts = ductsRepo.getDuctList();
+        return ducts.stream().map(Duct::getDuctName).anyMatch(c -> c.equals(ductName));
+    }
+
 }
