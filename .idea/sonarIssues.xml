@@ -298,6 +298,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/example/ChatWithJMS/domain/proxy/ProxyForDuctService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/example/ChatWithJMS/domain/service/ServiceDuct.java">
           <value>
             <set />
@@ -414,6 +419,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../chat1b/src/main/java/com/sebapd/chat1b/server/adapters/persistent/repositories/JpaChannelRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../chat1b/src/main/java/com/sebapd/chat1b/server/domain/decorators/JmsChatChannelServiceDecorator.java">
           <value>
             <set />
           </value>
