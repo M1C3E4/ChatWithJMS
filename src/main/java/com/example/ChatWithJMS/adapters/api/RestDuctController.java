@@ -16,7 +16,7 @@ import javax.ws.rs.core.Response;
 import java.util.List;
 
 @Path("duct")
-public class RestControllerDuct {
+public class RestDuctController {
 
     @Inject
     private DuctService ductService;
