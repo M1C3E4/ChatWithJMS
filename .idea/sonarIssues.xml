@@ -38,6 +38,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/example/ChatWithJMS/adapters/api/RestControllerDuct.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/example/ChatWithJMS/adapters/api/dataTransferObject/DuctDTO.java">
           <value>
             <set />
