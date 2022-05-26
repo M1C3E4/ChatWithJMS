@@ -7,9 +7,7 @@ import com.example.ChatWithJMS.domain.exception.DuctNotFoundException;
 import com.example.ChatWithJMS.domain.exception.FIleNotFoundException;
 import com.example.ChatWithJMS.domain.exception.FilePeopleNotExistInTheDuctException;
 import com.example.ChatWithJMS.domain.exception.PeopleNotFoundException;
-import com.example.ChatWithJMS.domain.service.ServiceFile;
 import com.example.ChatWithJMS.ports.FileService;
-import lombok.var;
 
 import javax.inject.Inject;
 import javax.ws.rs.*;

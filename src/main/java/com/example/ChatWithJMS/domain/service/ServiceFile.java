@@ -11,7 +11,6 @@ import com.example.ChatWithJMS.ports.DuctsRepo;
 import com.example.ChatWithJMS.ports.FileRepository;
 import com.example.ChatWithJMS.ports.FileService;
 import lombok.RequiredArgsConstructor;
-import lombok.var;
 
 import javax.inject.Inject;
 import javax.inject.Singleton;

@@ -4,7 +4,6 @@ import com.example.ChatWithJMS.adapters.api.dataTransferObject.DuctDTO;
 import com.example.ChatWithJMS.adapters.api.mappers.DuctMapper;
 import com.example.ChatWithJMS.domain.exception.DuctAlreadyExistException;
 import com.example.ChatWithJMS.ports.DuctsService;
-import lombok.var;
 
 import javax.inject.Inject;
 import javax.ws.rs.*;

@@ -9,7 +9,6 @@ import com.example.ChatWithJMS.ports.InformationRepo;
 import com.example.ChatWithJMS.ports.InformationService;
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
-import lombok.var;
 
 import javax.inject.Inject;
 import javax.inject.Singleton;

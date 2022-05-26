@@ -5,8 +5,6 @@ import com.example.ChatWithJMS.adapters.durable.repository.JpaPeopleRepo;
 import com.example.ChatWithJMS.domain.People;
 import com.example.ChatWithJMS.ports.PeopleRepo;
 import lombok.RequiredArgsConstructor;
-import lombok.var;
-
 import javax.inject.Inject;
 import javax.transaction.Transactional;
 import java.util.Optional;

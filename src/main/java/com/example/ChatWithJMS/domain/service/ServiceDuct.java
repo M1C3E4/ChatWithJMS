@@ -14,7 +14,6 @@ import com.example.ChatWithJMS.ports.PeopleRepo;
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import lombok.var;
 
 import javax.inject.Inject;
 import javax.inject.Singleton;

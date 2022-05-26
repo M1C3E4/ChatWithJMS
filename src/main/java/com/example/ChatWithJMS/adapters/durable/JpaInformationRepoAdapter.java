@@ -8,8 +8,6 @@ import com.example.ChatWithJMS.domain.Duct;
 import com.example.ChatWithJMS.domain.Information;
 import com.example.ChatWithJMS.ports.InformationRepo;
 import lombok.RequiredArgsConstructor;
-import lombok.var;
-
 import javax.inject.Inject;
 import javax.transaction.Transactional;
 

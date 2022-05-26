@@ -5,8 +5,6 @@ import com.example.ChatWithJMS.domain.File;
 import com.example.ChatWithJMS.domain.Information;
 import com.example.ChatWithJMS.ports.FileService;
 import lombok.Setter;
-import lombok.var;
-
 import javax.decorator.Decorator;
 import javax.decorator.Delegate;
 import javax.inject.Inject;

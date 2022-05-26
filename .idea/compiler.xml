@@ -11,7 +11,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="ChatWithJMS" target="1.8" />
+      <module name="ChatWithJMS" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -5,8 +5,6 @@ import com.example.ChatWithJMS.adapters.durable.repository.JpaDuctsRepo;
 import com.example.ChatWithJMS.domain.Duct;
 import com.example.ChatWithJMS.ports.DuctsRepo;
 import lombok.RequiredArgsConstructor;
-import lombok.var;
-
 import javax.inject.Inject;
 import javax.transaction.Transactional;
 import java.util.List;

@@ -2,8 +2,6 @@ package com.example.ChatWithJMS.adapters.durable.repository;
 
 import com.example.ChatWithJMS.adapters.durable.entity.DuctEntity;
 import lombok.Setter;
-import lombok.var;
-
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.persistence.TypedQuery;

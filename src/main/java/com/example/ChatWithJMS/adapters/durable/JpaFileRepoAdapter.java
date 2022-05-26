@@ -7,7 +7,6 @@ import com.example.ChatWithJMS.domain.Duct;
 import com.example.ChatWithJMS.domain.File;
 import com.example.ChatWithJMS.ports.FileRepository;
 import lombok.RequiredArgsConstructor;
-import lombok.var;
 
 import javax.inject.Inject;
 import javax.transaction.Transactional;

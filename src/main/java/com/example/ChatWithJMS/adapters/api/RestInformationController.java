@@ -5,7 +5,6 @@ import com.example.ChatWithJMS.adapters.api.mappers.InformationMapper;
 import com.example.ChatWithJMS.domain.exception.DuctNotFoundException;
 import com.example.ChatWithJMS.domain.exception.PeopleNotExistInDuctException;
 import com.example.ChatWithJMS.ports.InformationService;
-import lombok.var;
 
 import javax.inject.Inject;
 import javax.ws.rs.Consumes;

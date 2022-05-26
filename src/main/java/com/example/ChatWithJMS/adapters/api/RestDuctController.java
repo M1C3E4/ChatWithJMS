@@ -7,8 +7,6 @@ import com.example.ChatWithJMS.domain.exception.DuctNotFoundException;
 import com.example.ChatWithJMS.domain.exception.PeopleNotExistInDuctException;
 import com.example.ChatWithJMS.domain.exception.PeopleNotFoundException;
 import com.example.ChatWithJMS.ports.DuctService;
-import lombok.var;
-
 import javax.inject.Inject;
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;

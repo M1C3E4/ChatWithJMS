@@ -3,7 +3,6 @@ package com.example.ChatWithJMS.adapters.javaMessageService;
 import com.example.ChatWithJMS.domain.Information;
 import com.example.ChatWithJMS.ports.JMS;
 import org.apache.activemq.ActiveMQConnectionFactory;
-
 import javax.jms.*;
 
 public class JavaMessageServiceWithActiveMQ implements JMS {

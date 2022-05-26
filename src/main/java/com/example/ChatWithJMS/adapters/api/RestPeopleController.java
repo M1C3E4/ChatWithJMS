@@ -5,7 +5,6 @@ import com.example.ChatWithJMS.adapters.api.mappers.PeopleMapper;
 import com.example.ChatWithJMS.domain.exception.PeopleAlreadyExistException;
 import com.example.ChatWithJMS.domain.exception.PeopleNotFoundException;
 import com.example.ChatWithJMS.ports.PeopleService;
-import lombok.var;
 
 import javax.inject.Inject;
 import javax.ws.rs.*;

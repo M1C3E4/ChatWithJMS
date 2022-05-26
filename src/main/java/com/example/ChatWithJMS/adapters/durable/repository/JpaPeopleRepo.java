@@ -2,7 +2,6 @@ package com.example.ChatWithJMS.adapters.durable.repository;
 
 import com.example.ChatWithJMS.adapters.durable.entity.PeopleEntity;
 import lombok.Setter;
-import lombok.var;
 import javax.inject.Inject;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
